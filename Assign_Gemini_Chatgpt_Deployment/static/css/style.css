@@ -1,0 +1,190 @@
+def get_handwritten_faq_data():
+    """
+    Returns the complete QA dataset from the handwritten records,
+    fully optimized with structured layout components and visual image frames.
+    """
+    return {
+        "offline_vs_online": {
+            "intent_description": "Inquiries about physical/offline vs virtual/online classes.",
+            "answer": """
+            <div class="academy-hub-container" style="font-family: system-ui, -apple-system, sans-serif; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05); max-width: 650px; margin: 20px auto; color: #1e293b;">
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+                    <span style="font-size: 1.5rem;">🧶</span>
+                    <strong style="font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; color: #0f172a;">Crochet Training Academy Hub</strong>
+                </div>
+                <p style="font-size: 0.95rem; color: #475569; margin: 0 0 20px 0;">We would love to have you join us at our physical workshop table!</p>
+
+                <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; margin-bottom: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px;">
+                    <div style="background: #ffffff; padding: 12px; border-radius: 8px; border: 1px solid #edf2f7;">
+                        <div style="font-size: 0.75rem; font-weight: 700; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">📍 Location</div>
+                        <div style="font-size: 0.85rem; font-weight: 600; color: #334155;">Crossroad Library<br>Balbínova, Prague-2</div>
+                    </div>
+                    <div style="background: #ffffff; padding: 12px; border-radius: 8px; border: 1px solid #edf2f7;">
+                        <div style="font-size: 0.75rem; font-weight: 700; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">📅 Schedule</div>
+                        <div style="font-size: 0.85rem; font-weight: 600; color: #334155;">Saturdays<br>10:00 AM - 11:00 AM</div>
+                    </div>
+                    <div style="background: #ffffff; padding: 12px; border-radius: 8px; border: 1px solid #edf2f7;">
+                        <div style="font-size: 0.75rem; font-weight: 700; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">💡 Format</div>
+                        <div style="font-size: 0.85rem; font-weight: 600; color: #e11d48;">In-person only<br><span style="font-size: 0.75rem; font-weight: 400; color: #64748b;">(No online classes)</span></div>
+                    </div>
+                </div>
+
+                <div class="workshop-visual-container" style="width: 100%; height: 180px; background: #e2e8f0; border-radius: 12px; overflow: hidden; margin-bottom: 24px; border: 1px solid #cbd5e1; position: relative;">
+                    <img src="https://unsplash.com" alt="Crochet Workshop Table" style="width: 100%; height: 100%; object-fit: cover;" />
+                </div>
+            </div>
+            """
+        },
+        "material_requirements": {
+            "intent_description": "Whether materials are provided or if students bring their own.",
+            "answer": """
+            <div class="system-checklist-block-container" style="font-family: 'Courier New', Courier, monospace; background-color: #0f172a; border: 1px solid #334155; border-radius: 12px; padding: 24px; max-width: 550px; margin: 20px auto; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);">
+                <div class="ui-header-line-code" style="margin-bottom: 20px; border-bottom: 1px dashed #334155; padding-bottom: 12px; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <span style="color: #64748b; font-size: 0.75rem; display: block; margin-bottom: 4px;">// Component Heading Context Matrix</span>
+                        <h3 style="color: #38bdf8; font-size: 1.1rem; margin: 0; font-weight: 600;">&lt;ChecklistDescriptor: "Quick Checklist"&gt;</h3>
+                    </div>
+                    <span style="font-size: 0.7rem; background-color: #1e293b; color: #38bdf8; padding: 4px 8px; border-radius: 4px; border: 1px solid #334155;">v1.0.4</span>
+                </div>
+
+                <div class="ui-array-matrix-container" style="display: flex; flex-direction: column; gap: 14px;">
+                    <div class="ui-element-row-code" style="background-color: rgba(30, 41, 59, 0.4); padding: 12px; border-radius: 8px; border: 1px solid #1e293b; border-left: 4px solid #22c55e;">
+                        <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #f43f5e; font-weight: bold; margin-bottom: 4px;">
+                            <span>[Array_Element_0]</span> <span style="color: #22c55e;">STATUS: REQUIRED</span>
+                        </div>
+                        <div style="font-size: 0.9rem; color: #e2e8f0;">Key: <span style="color: #fbbf24;">"Personal Yarn"</span></div>
+                        <div style="font-size: 0.8rem; color: #94a3b8; margin-top: 2px;">Meta: <span style="color: #a78bfa;">"(Choice of color and weight)"</span></div>
+                    </div>
+
+                    <div class="ui-element-row-code" style="background-color: rgba(30, 41, 59, 0.4); padding: 12px; border-radius: 8px; border: 1px solid #1e293b; border-left: 4px solid #22c55e;">
+                        <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #f43f5e; font-weight: bold; margin-bottom: 4px;">
+                            <span>[Array_Element_1]</span> <span style="color: #22c55e;">STATUS: REQUIRED</span>
+                        </div>
+                        <div style="font-size: 0.9rem; color: #e2e8f0;">Key: <span style="color: #fbbf24;">"Matching Crochet Hooks"</span></div>
+                    </div>
+
+                    <div class="ui-element-row-code" style="background-color: rgba(30, 41, 59, 0.4); padding: 12px; border-radius: 8px; border: 1px solid #1e293b; border-left: 4px solid #64748b;">
+                        <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #94a3b8; font-weight: bold; margin-bottom: 4px;">
+                            <span>[Array_Element_2]</span> <span style="color: #94a3b8;">STATUS: OPTIONAL</span>
+                        </div>
+                        <div style="font-size: 0.9rem; color: #e2e8f0;">Key: <span style="color: #fbbf24;">"Tapestry needle and scissors"</span></div>
+                        <div style="font-size: 0.8rem; color: #94a3b8; margin-top: 2px;">Meta: <span style="color: #a78bfa;">"Optional finishing components"</span></div>
+                    </div>
+                </div>
+            </div>
+            """
+        },
+        "custom_orders_and_commissions": {
+            "intent_description": "General custom orders, ordering process queries, contact information, how to reach out, email address, or phone number inquiries.",
+            "answer": """
+            <div class="custom-order-card" style="font-family: system-ui, -apple-system, sans-serif; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); max-width: 600px; margin: 20px auto; color: #1e293b;">
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+                    <span style="font-size: 1.4rem;">🛍️</span>
+                    <strong style="font-size: 1.3rem; font-weight: 700; color: #0f172a; letter-spacing: -0.01em;">How to Order</strong>
+                </div>
+                <p style="font-size: 0.9rem; color: #475569; margin: 0 0 20px 0; line-height: 1.5;">
+                    If you have a specific vision in mind, feel free to share your design ideas or reference photos with me! Write to us at <strong>christi.gladis@gmail.com</strong> or WhatsApp <strong>+420 776756594</strong>.
+                </p>
+
+                <div style="background: linear-gradient(145deg, #f8fafc, #f1f5f9); border: 1px solid #cbd5e1; border-radius: 12px; padding: 18px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                        <span style="font-size: 0.75rem; font-weight: 700; color: #4f46e5; text-transform: uppercase; letter-spacing: 0.05em;">Visual Configuration Model</span>
+                        <span style="font-size: 0.7rem; background: #e0e7ff; color: #4338ca; padding: 2px 8px; border-radius: 9999px; font-weight: 600;">Active Spec</span>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 16px; align-items: center;">
+                        <div style="display: flex; flex-direction: column; gap: 12px;">
+                            <div>
+                                <span style="font-size: 0.7rem; font-weight: 700; color: #64748b; display: block; text-transform: uppercase; margin-bottom: 4px;">productType</span>
+                                <span style="display: inline-flex; align-items: center; gap: 6px; background: #ffffff; border: 1px solid #e2e8f0; padding: 6px 12px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; color: #0f172a;">🐾 Pet Sweater</span>
+                            </div>
+                            <div>
+                                <span style="font-size: 0.7rem; font-weight: 700; color: #64748b; display: block; text-transform: uppercase; margin-bottom: 4px;">size</span>
+                                <div style="display: inline-flex; align-items: center; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px; overflow: hidden; font-size: 0.8rem; font-weight: 600;">
+S
+M
+L
+
+
+colors Array
+
+ Blue
+ White
+
+
+referenceImage Provided
+
+
+
+
+"""
+},
+"specific_product_items": {
+"intent_description": "Queries about pet sweaters, customized bags, purses, or custom anime amigurumi characters.",
+"answer": """
+
+
+
+❓
+FAQ Example: Custom Inquiry Manifest
+
+itemType
+🐾 Pet Sweater
+
+
+size
+
+S
+Medium
+L
+
+
+
+Inquiry Notes
+
+"Custom colors and cozy fit requested"
+
+
+"""
+},
+"who_can_join": {
+"intent_description": "Who can join the classes and age groups.",
+"answer": "Our crochet classes are completely open to everyone—from absolute beginners to intermediate crafters looking to refine their skills. Any and all age groups are warmly welcome, including both children and adults!"
+},
+"experience_requirements": {
+"intent_description": "Whether previous crochet experience or knowledge is required.",
+"answer": "Previous crochet experience is not necessary. Our sessions are specifically designed to be perfectly suitable for complete beginners, and we will guide you step-by-step from the very start."
+},
+"class_curriculum": {
+"intent_description": "What tools, stitches, or projects are taught in the lessons.",
+"answer": "In these classes, you will enjoy a full, supportive progression starting from basic foundational stitches all the way to executing advanced, custom projects of your choosing!"
+},
+"logistics_schedule": {
+"intent_description": "When and what time the classes start, finish, or are held.",
+"answer": "Our crochet classes are held every single Saturday morning from 10:00 AM to 11:00 AM."
+},
+"location_details": {
+"intent_description": "Where the classes are physically located.",
+"answer": "Our wonderful sessions are held in a cozy setting at the Crossroad Library, located at Balbinova, Prague-2."
+},
+"pricing_fees": {
+"intent_description": "Cost per class session or currency prices.",
+"answer": "The investment for each structural class session is exactly 250 CZK, which includes personalized, hands-on guidance throughout the hour."
+},
+"registration_policy": {
+"intent_description": "Whether pre-booking or pre-registration is needed before showing up.",
+"answer": "Yes, please! Pre-registration is required before attending a class session. This helps us ensure that we save a dedicated, comfortable workspace just for you."
+},
+"attendance_flexibility": {
+"intent_description": "Joining just a single class versus regular sequential attendance.",
+"answer": "We offer total flexibility! You can absolutely join us for just a single standalone class to master a specific technique, or choose to attend regularly to build your skills."
+},
+"painting_classes_restriction": {
+"intent_description": "Inquiries asking about taking painting classes, canvas workshops, or drawing lessons.",
+"answer": "Please note that we specialize exclusively in fiber arts and only offer training classes for crochet making. We do not host any painting classes or drawing workshops at our academy. If you are looking for paintings, fine art canvas pieces are sold strictly on a custom commission basis."
+},
+"online_classes_policy": {
+"intent_description": "Inquiries about virtual lessons, digital courses, Zoom calls, internet sessions, or online classes.",
+"answer": "Currently, we do not offer any online classes, as we prioritize a hands-on, face-to-face workshop environment to help you perfect your stitches in real time."
+}
+}

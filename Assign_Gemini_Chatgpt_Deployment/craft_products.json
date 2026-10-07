@@ -1,0 +1,80 @@
+{
+    "Sunsets Landscape Canvas": {
+        "name": "Sunsets Landscape Canvas",
+        "category": "Fine Art",
+        "brand": "Artisan\u2019s Hearth",
+        "type": "Commission Painting",
+        "features": [
+            "Premium canvas board",
+            "Acrylic/Oil blend",
+            "Protective UV varnish sealer"
+        ],
+        "description": "Bespoke custom real physical scenery painting executed on structural board frames.",
+        "price": 2500.0
+    },
+    "Textured Impasto Canvas": {
+        "name": "Textured Impasto Canvas",
+        "category": "Fine Art",
+        "brand": "Artisan\u2019s Hearth",
+        "type": "Finished Sale Only",
+        "features": [
+            "Heavy body acrylics",
+            "High structural 3D texture",
+            "Signed by artist"
+        ],
+        "description": "Stunning dimensional tactile floral artwork. Note: No classes provided for painting items.",
+        "price": 3200.0
+    },
+    "Custom Anime Character": {
+        "name": "Custom Anime Character",
+        "category": "Crochet Toys",
+        "brand": "Artisan\u2019s Hearth",
+        "type": "Bespoke Amigurumi",
+        "features": [
+            "Premium cotton yarn",
+            "Embroidered safety eyes",
+            "Washable poly-fill stuffing"
+        ],
+        "description": "Handmade crochet plush figures modeled closely to any requested animation character reference.",
+        "price": 850.0
+    },
+    "Bespoke Tote Bag": {
+        "name": "Bespoke Tote Bag",
+        "category": "Crochet Accessories",
+        "brand": "Artisan\u2019s Hearth",
+        "type": "Bespoke Accessories",
+        "features": [
+            "Reinforced double-stitch strap",
+            "Internal fabric lining layer",
+            "Magnetic snap closure"
+        ],
+        "description": "High-durability everyday aesthetic woven handbag purse.",
+        "price": 1200.0
+    },
+    "Newborn Romper": {
+        "name": "Newborn Romper",
+        "category": "Baby Apparel",
+        "brand": "Artisan\u2019s Hearth",
+        "type": "Infant Garments",
+        "features": [
+            "Hypoallergenic milk cotton yarn",
+            "Zero plastic attachments",
+            "Super soft seamless stitch layout"
+        ],
+        "description": "Safe, premium organic clothing specialized for newborns and sensitive infant skin.",
+        "price": 950.0
+    },
+    "Crochet Sandals": {
+        "name": "Crochet Sandals",
+        "category": "Baby Apparel",
+        "brand": "Artisan\u2019s Hearth",
+        "type": "Infant Footwear",
+        "features": [
+            "Soft woven base sole",
+            "Adjustable secure strap buttons",
+            "Flexible movement fit"
+        ],
+        "description": "Adorable lightweight custom booties perfect for infants aged 0-12 months.",
+        "price": 450.0
+    }
+}

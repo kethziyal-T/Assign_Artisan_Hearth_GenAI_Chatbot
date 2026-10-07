@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "/home/kethziyal19/aiml/bin/python3",
+    "python.analysis.extraPaths": [
+        "/home/kethziyal19/aiml/lib/python3.11/site-packages"
+    ]
+}
