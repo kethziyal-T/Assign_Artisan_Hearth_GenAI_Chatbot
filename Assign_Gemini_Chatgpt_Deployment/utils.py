@@ -478,6 +478,11 @@ def get_handwritten_faq_data():
         "online_classes_policy": {
             "intent_description": "Inquiries about virtual lessons, digital courses, Zoom calls, internet sessions, or online classes. ",
             "answer": "Thank you so much for your interest! Currently, we do not offer any online classes, as we prioritize a hands-on, face-to-face workshop environment to help you perfect your stitches in real time. We would absolutely love to have you join us at our in-person sessions held every Saturday morning at the Crossroad Library instead!"
-        }
+        },
+                "painting_commissions_types": {
+            "intent_description": "Queries about what types of paintings can be commissioned, art styles, or custom canvas options.",
+            "answer": "I would be absolutely delighted to bring your vision to life! As a professional fine artist, I accept custom commission requests for a wide variety of painting styles on premium structural canvas boards. This includes bespoke realism landscapes, vibrant sunsets, high-texture 3D impasto floral works, animal portraits, illustrative art, and custom figurative paintings. I work with high-quality mediums including oils, acrylic blends, watercolors, and colored pencils, finishing every custom piece with a protective UV varnish sealer to ensure it lasts a lifetime."
+        },
+
     }
 
